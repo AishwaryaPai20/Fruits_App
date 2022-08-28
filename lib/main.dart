@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:fruits_app/screens/market_screen.dart';
+import 'components/sort_card.dart';
 import 'constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
