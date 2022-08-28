@@ -1,4 +1,4 @@
-class FruitDataModel {
+class MarketDataModel {
   String? seller;
   String? product;
   String? variety;
@@ -8,7 +8,7 @@ class FruitDataModel {
   int? boxes;
   String? delivery;
 
-  FruitDataModel(
+  MarketDataModel(
       {this.seller,
       this.product,
       this.variety,
@@ -18,7 +18,7 @@ class FruitDataModel {
       this.boxes,
       this.delivery});
 
-  FruitDataModel.fromJson(Map<String, dynamic> json) {
+  MarketDataModel.fromJson(Map<String, dynamic> json) {
     seller = json['Seller'];
     product = json['Product'];
     variety = json['Variety'];

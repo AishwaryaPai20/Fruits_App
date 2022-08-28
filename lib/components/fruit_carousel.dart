@@ -69,7 +69,7 @@ class _FruitCarouselState extends State<FruitCarousel> {
   }) =>
       Container(
           width: 64,
-          // height: 64,
+          height: 64,
           color: kBackgroundColor,
           child: Column(
             children: [
@@ -86,7 +86,7 @@ class _FruitCarouselState extends State<FruitCarousel> {
                 ),
               ),
               const SizedBox(
-                height: 4,
+                height: 5,
               ),
               Text(
                 item.title,

@@ -3,7 +3,7 @@ import 'package:fruits_app/screens/market_screen.dart';
 import 'constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
-import 'models/fruit_model.dart';
+import 'models/market_model.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {

@@ -20,7 +20,7 @@ class MarketScreen extends StatelessWidget {
       centerTitle: false,
       title: const Text(
         'Buy',
-        style: const TextStyle(
+        style: TextStyle(
           color: kTextColor,
           fontWeight: FontWeight.bold,
           fontSize: 18,
