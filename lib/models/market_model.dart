@@ -7,16 +7,19 @@ class MarketDataModel {
   int? perBox;
   int? boxes;
   String? delivery;
+  Function? press;
 
-  MarketDataModel(
-      {this.seller,
-      this.product,
-      this.variety,
-      this.price,
-      this.avgWeight,
-      this.perBox,
-      this.boxes,
-      this.delivery});
+  MarketDataModel({
+    this.seller,
+    this.product,
+    this.variety,
+    this.price,
+    this.avgWeight,
+    this.perBox,
+    this.boxes,
+    this.delivery,
+    this.press,
+  });
 
   MarketDataModel.fromJson(Map<String, dynamic> json) {
     seller = json['Seller'];
